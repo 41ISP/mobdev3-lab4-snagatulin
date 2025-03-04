@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    min-height: 100vh;
+}
+.header,
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.nav {
+    background: #444;
+    color: white;
+    padding: 15px;
+
+    gap: 15px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main {
+    padding: 20px;
+    gap: 20px;
+}
+.sidebar {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 25%;
+}
+.content {
+    background: #ddd;
+    padding: 20px;
+    gap: 20px;
+}
+.section {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.card-container {
+    gap: 15px;
+    width: 100%;
+}
+.card {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.footer {
+    margin-top: 20px;
+}
